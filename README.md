@@ -1,4 +1,4 @@
-# Business Memory — Morning Brief
+# ActionDesk — Morning Brief
 
 A working MVP for ActionDesk’s core wedge: keep a continuously updated memory of a small business, then surface a short, prioritized list of what needs attention and why.
 
@@ -6,7 +6,7 @@ A working MVP for ActionDesk’s core wedge: keep a continuously updated memory 
 
 - Deterministic synthetic dataset with 40 realistic emails, invoices, orders, supplier prices, six planted stories, and decoys.
 - SQLite entity memory for customers, suppliers, contacts, emails, extraction cache, invoices, orders, commitments, action items, and feedback.
-- Idempotent ingestion and cached extraction. If `ANTHROPIC_API_KEY` is present, email extraction can use the configured Claude Haiku model; otherwise the deterministic fallback makes the demo run offline.
+- Idempotent ingestion and cached extraction. If `LLM key` is present, email extraction can use the configured Claude Haiku model; otherwise the deterministic fallback makes the demo run offline.
 - Plain Python rules for overdue invoices, gone-quiet customers, unanswered complaints, broken commitments, supplier price changes, and messy contact resolution.
 - Ranked Morning Brief with evidence panels, editable draft replies, Done, Snooze, Dismiss, entity timeline, and summary metrics.
 - Evaluation script and results file.
@@ -25,7 +25,7 @@ python -m eval.run_eval
 streamlit run app/ui.py
 ```
 
-The UI is local at `http://localhost:8501`. No API key is required for the deterministic demo. Add `ANTHROPIC_API_KEY` to `.env` only when you want optional Claude extraction/enrichment.
+The UI is local at `http://localhost:8501`. No API key is required for the deterministic demo. Add `LLM` to `.env` only when you want optional Claude extraction/enrichment.
 
 ## Connect Gmail (read-only)
 
