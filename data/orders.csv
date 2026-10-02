@@ -1,0 +1,19 @@
+order_id,customer,date,amount,product
+O-A1,Acme Studio,2026-07-06,900,Blue units
+O-A2,Acme Studio,2026-07-27,900,Blue units
+O-A3,Acme Studio,2026-08-16,900,Blue units
+O-A4,Acme Studio,2026-09-02,900,Blue units
+O-A5,Acme Studio,2026-08-11,900,Blue units
+O-N1,Northstar Studio,2026-07-29,1400,Kits
+O-N2,Northstar Studio,2026-08-25,1400,Kits
+O-N3,Northstar Studio,2026-09-24,1400,Kits
+O-B1,Brightline Retail,2026-09-04,1200,Packaging
+O-B2,Brightline Retail,2026-09-18,1200,Packaging
+O-C1,Cedar & Co,2026-08-23,850,Shipping supplies
+O-C2,Cedar & Co,2026-09-14,850,Shipping supplies
+O-C3,Cedar & Co,2026-09-29,850,Shipping supplies
+O-M1,Mosaic Labs,2026-08-18,950,Labels
+O-M2,Mosaic Labs,2026-09-12,950,Labels
+O-M3,Mosaic Labs,2026-09-27,950,Labels
+O-H1,Harbor House,2026-08-25,700,Standard kit
+O-H2,Harbor House,2026-09-20,700,Standard kit

@@ -1,0 +1,26 @@
+[
+  {
+    "entity": "Acme Studio",
+    "signal_type": "customer_gone_quiet"
+  },
+  {
+    "entity": "Northstar Studio",
+    "signal_type": "overdue_invoice"
+  },
+  {
+    "entity": "Brightline Retail",
+    "signal_type": "broken_commitment"
+  },
+  {
+    "entity": "Cedar & Co",
+    "signal_type": "unanswered_complaint"
+  },
+  {
+    "entity": "River & Co",
+    "signal_type": "supplier_price_change"
+  },
+  {
+    "entity": "Acme Studio",
+    "signal_type": "messy_entity_resolution"
+  }
+]

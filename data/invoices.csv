@@ -1,0 +1,7 @@
+invoice_id,customer,amount,issue_date,due_date,status
+INV-1042,Northstar Studio,2400,2026-08-13,2026-09-04,unpaid
+INV-1031,Northstar Studio,1800,2026-08-08,2026-08-30,paid
+INV-2050,Brightline Retail,1200,2026-09-17,2026-10-17,unpaid
+INV-3010,Cedar & Co,850,2026-09-12,2026-10-12,paid
+INV-4010,Mosaic Labs,950,2026-09-14,2026-10-14,paid
+INV-5010,Harbor House,700,2026-09-22,2026-10-22,paid

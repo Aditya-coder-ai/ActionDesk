@@ -1,0 +1,392 @@
+[
+  {
+    "id": "e001",
+    "thread_id": "t-acme-quiet",
+    "from": "sarah@acme.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-07-18",
+    "subject": "Order confirmation",
+    "body": "Thanks, the usual replenishment looks good. Please ship next week.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e002",
+    "thread_id": "t-acme-quiet",
+    "from": "owner@actiondesk.local",
+    "to": "sarah@acme.example",
+    "date": "2026-07-19",
+    "subject": "Re: Order confirmation",
+    "body": "Great, we'll have it ready.",
+    "direction": "outbound"
+  },
+  {
+    "id": "e003",
+    "thread_id": "t-acme-quiet",
+    "from": "sarah@acme.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-08-09",
+    "subject": "Re: Order confirmation",
+    "body": "Perfect, thank you.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e004",
+    "thread_id": "t-acme-quiet",
+    "from": "sarah@acme.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-08-30",
+    "subject": "Re: Order confirmation",
+    "body": "Could we add the blue units next time?",
+    "direction": "inbound"
+  },
+  {
+    "id": "e005",
+    "thread_id": "t-northstar-overdue",
+    "from": "owner@actiondesk.local",
+    "to": "billing@northstar.example",
+    "date": "2026-09-07",
+    "subject": "Invoice 1042 reminder",
+    "body": "Following up on invoice INV-1042 for $2,400, now past due. Could you confirm payment timing?",
+    "direction": "outbound"
+  },
+  {
+    "id": "e006",
+    "thread_id": "t-northstar-overdue",
+    "from": "owner@actiondesk.local",
+    "to": "billing@northstar.example",
+    "date": "2026-09-20",
+    "subject": "Re: Invoice 1042 reminder",
+    "body": "Just checking this reached you.",
+    "direction": "outbound"
+  },
+  {
+    "id": "e007",
+    "thread_id": "t-broken-promise",
+    "from": "owner@actiondesk.local",
+    "to": "maria@brightline.example",
+    "date": "2026-09-14",
+    "subject": "Quote for Q4 packaging",
+    "body": "I'll send the revised quote by Friday, September 18.",
+    "direction": "outbound"
+  },
+  {
+    "id": "e008",
+    "thread_id": "t-complaint",
+    "from": "jordan@cedar.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-29",
+    "subject": "Still waiting on the damaged shipment",
+    "body": "This is extremely frustrating. We have been waiting two weeks and nobody has explained what happened. Please fix this today.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e009",
+    "thread_id": "t-supplier-price",
+    "from": "lena@river.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-24",
+    "subject": "Updated pricing for kraft boxes",
+    "body": "Our kraft box unit price will move from $1.20 to $1.48 starting this month due to material costs.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e010",
+    "thread_id": "t-messy-acme",
+    "from": "john.alt@acme.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-30",
+    "subject": "John from Acme - urgent reorder",
+    "body": "Hi, John from Acme here. We need 80 blue units by next Friday. Please use this address for the delivery thread.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e011",
+    "thread_id": "t-mosaic",
+    "from": "lee@mosaic.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-27",
+    "subject": "Re: Monthly report",
+    "body": "The report looks good, thanks.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e012",
+    "thread_id": "t-harbor",
+    "from": "nina@harbor.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-28",
+    "subject": "October order",
+    "body": "Please send 30 units of the standard kit.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e013",
+    "thread_id": "t-harbor",
+    "from": "owner@actiondesk.local",
+    "to": "nina@harbor.example",
+    "date": "2026-09-29",
+    "subject": "Re: October order",
+    "body": "Confirmed \u2014 dispatching tomorrow.",
+    "direction": "outbound"
+  },
+  {
+    "id": "e014",
+    "thread_id": "t-papertrail",
+    "from": "ops@papertrail.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-26",
+    "subject": "Delivery update",
+    "body": "Your stationery order shipped today and should arrive Thursday.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e015",
+    "thread_id": "t-brightline",
+    "from": "maria@brightline.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-22",
+    "subject": "Re: Sample pack",
+    "body": "The samples arrived and look great. We'll review internally.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e016",
+    "thread_id": "t-brightline",
+    "from": "owner@actiondesk.local",
+    "to": "maria@brightline.example",
+    "date": "2026-09-23",
+    "subject": "Re: Sample pack",
+    "body": "Sounds good, happy to answer questions.",
+    "direction": "outbound"
+  },
+  {
+    "id": "e017",
+    "thread_id": "t-northstar-paid",
+    "from": "billing@northstar.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-04",
+    "subject": "Payment receipt",
+    "body": "Paid invoice INV-1031 in full. Receipt attached.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e018",
+    "thread_id": "t-cedar-decoy",
+    "from": "jordan@cedar.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-08-18",
+    "subject": "Thanks",
+    "body": "Thanks for sorting that out last month.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e019",
+    "thread_id": "t-cedar-decoy",
+    "from": "owner@actiondesk.local",
+    "to": "jordan@cedar.example",
+    "date": "2026-08-19",
+    "subject": "Re: Thanks",
+    "body": "Any time.",
+    "direction": "outbound"
+  },
+  {
+    "id": "e020",
+    "thread_id": "routine-20",
+    "from": "sarah@acme.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-11",
+    "subject": "Quick question",
+    "body": "Can you confirm the updated product dimensions?",
+    "direction": "inbound"
+  },
+  {
+    "id": "e021",
+    "thread_id": "routine-21",
+    "from": "lee@mosaic.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-10",
+    "subject": "Weekly sync",
+    "body": "Sharing the notes from our weekly sync.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e022",
+    "thread_id": "routine-22",
+    "from": "nina@harbor.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-09",
+    "subject": "Delivery received",
+    "body": "Everything arrived safely.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e023",
+    "thread_id": "routine-23",
+    "from": "maria@brightline.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-08",
+    "subject": "Re: Pricing",
+    "body": "Thanks for the pricing sheet.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e024",
+    "thread_id": "routine-24",
+    "from": "ops@papertrail.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-07",
+    "subject": "Invoice paid",
+    "body": "Thanks for your payment.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e025",
+    "thread_id": "routine-25",
+    "from": "billing@northstar.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-10-01",
+    "subject": "Statement",
+    "body": "Attached is your monthly statement.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e026",
+    "thread_id": "routine-26",
+    "from": "sarah@acme.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-30",
+    "subject": "Holiday hours",
+    "body": "Our office will be closed Monday.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e027",
+    "thread_id": "routine-27",
+    "from": "lee@mosaic.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-29",
+    "subject": "Product notes",
+    "body": "A few notes for the next release.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e028",
+    "thread_id": "routine-28",
+    "from": "nina@harbor.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-28",
+    "subject": "Re: Delivery received",
+    "body": "Great, glad it arrived.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e029",
+    "thread_id": "routine-29",
+    "from": "maria@brightline.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-27",
+    "subject": "Sample feedback",
+    "body": "The team likes the green option.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e030",
+    "thread_id": "routine-30",
+    "from": "ops@papertrail.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-26",
+    "subject": "Tracking",
+    "body": "Here is the tracking link.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e031",
+    "thread_id": "routine-31",
+    "from": "billing@northstar.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-25",
+    "subject": "Receipt",
+    "body": "Your recent payment was received.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e032",
+    "thread_id": "routine-32",
+    "from": "sarah@acme.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-24",
+    "subject": "Re: Holiday hours",
+    "body": "Thanks for letting us know.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e033",
+    "thread_id": "routine-33",
+    "from": "lee@mosaic.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-23",
+    "subject": "Next steps",
+    "body": "Let's revisit this next week.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e034",
+    "thread_id": "routine-34",
+    "from": "nina@harbor.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-22",
+    "subject": "Stock check",
+    "body": "We still have enough inventory.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e035",
+    "thread_id": "routine-35",
+    "from": "maria@brightline.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-21",
+    "subject": "Calendar",
+    "body": "I've sent a calendar invite.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e036",
+    "thread_id": "routine-36",
+    "from": "ops@papertrail.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-20",
+    "subject": "Order packed",
+    "body": "Your order is packed and ready.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e037",
+    "thread_id": "routine-37",
+    "from": "billing@northstar.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-19",
+    "subject": "Remittance",
+    "body": "Remittance advice attached.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e038",
+    "thread_id": "routine-38",
+    "from": "sarah@acme.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-18",
+    "subject": "Thanks",
+    "body": "Appreciate the quick turnaround.",
+    "direction": "inbound"
+  },
+  {
+    "id": "e039",
+    "thread_id": "routine-39",
+    "from": "lee@mosaic.example",
+    "to": "owner@actiondesk.local",
+    "date": "2026-09-17",
+    "subject": "All set",
+    "body": "All set on our side.",
+    "direction": "inbound"
+  }
+]

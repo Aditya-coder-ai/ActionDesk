@@ -1,0 +1,16 @@
+.env
+credentials.json
+credentials*.json
+client_secret*.json
+gmail_token.json
+business_memory.sqlite3
+*.sqlite3
+__pycache__/
+.pytest_cache/
+node_modules/
+.next/
+.venv/
+venv/
+eval/results.json
+token.json
+*.pyc
